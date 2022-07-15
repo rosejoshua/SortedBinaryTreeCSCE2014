@@ -17,7 +17,7 @@ using namespace std;
  * 
  */
 int main(int argc, char** argv) {
-    string DEFAULT_FILENAME = "streaming-yer.txt";
+    string DEFAULT_FILENAME = "streaming-year.txt";
     string menuChoice = "";
     string tempString = "";
     
