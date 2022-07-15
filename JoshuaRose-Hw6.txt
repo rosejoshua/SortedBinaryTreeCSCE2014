@@ -1,0 +1,347 @@
+Script started on 2022-07-15 16:18:32-0500
+]0;jlr095@turing: ~/csce2014/projects/csce2014_project6[01;32mjlr095@turing[00m:[01;34m~/csce2014/projects/csce2014_project6[00m$ g++ -std=c++11 -Wall *.cpp --o hw6.exe[K[A]0;jlr095@turing: ~/csce2014/projects/csce2014_project6[01;32mjlr095@turing[00m:[01;34m~/csce2014/projects/csce2014_project6[00m$ g++ -std=c++11 -Wall *.cpp -o hw66.exe[K[A]0;jlr095@turing: ~/csce2014/projects/csce2014_project6[01;32mjlr095@turing[00m:[01;34m~/csce2014/projects/csce2014_project6[00m$ g++ -std=c++11 -Wall *.cpp -o hw6.exxe[K[A]0;jlr095@turing: ~/csce2014/projects/csce2014_project6[01;32mjlr095@turing[00m:[01;34m~/csce2014/projects/csce2014_project6[00m$ g++ -std=c++11 -Wall *.cpp -o hw6.exe [K[A]0;jlr095@turing: ~/csce2014/projects/csce2014_project6[01;32mjlr095@turing[00m:[01;34m~/csce2014/projects/csce2014_project6[00m$ g++ -std=c++11 -Wall *.cpp -o hw6.exe[K]0;jlr095@turing: ~/csce2014/projects/csce2014_project6[01;32mjlr095@turing[00m:[01;34m~/csce2014/projects/csce2014_project6[00m$ g++ -std=c++11 -Wall *.cpp -o hw6.exe[K]0;jlr095@turing: ~/csce2014/projects/csce2014_project6[01;32mjlr095@turing[00m:[01;34m~/csce2014/projects/csce2014_project6[00m$ g++ -std=c++11 -Wall *.cpp -o hw6.exe[K]0;jlr095@turing: ~/csce2014/projects/csce2014_project6[01;32mjlr095@turing[00m:[01;34m~/csce2014/projects/csce2014_project6[00m$ g++ -std=c++11 -Wall *.cpp -o hw6.exe[K]0;jlr095@turing: ~/csce2014/projects/csce2014_project6[01;32mjlr095@turing[00m:[01;34m~/csce2014/projects/csce2014_project6[00m$ g++ -std=c++11 -Wall *.cpp -o hw6.exe[K]0;jlr095@turing: ~/csce2014/projects/csce2014_project6[01;32mjlr095@turing[00m:[01;34m~/csce2014/projects/csce2014_project6[00m$ g++ -std=c++11 -Wall *.cpp -o hw6.exe[K]0;jlr095@turing: ~/csce2014/projects/csce2014_project6[01;32mjlr095@turing[00m:[01;34m~/csce2014/projects/csce2014_project6[00m$ g++ -std=c++11 -Wall *.cpp -o hw6.exe[K]0;jlr095@turing: ~/csce2014/projects/csce2014_project6[01;32mjlr095@turing[00m:[01;34m~/csce2014/projects/csce2014_project6[00m$ g++ -std=c++11 -Wall *.cpp -o hw6.exe[K]0;jlr095@turing: ~/csce2014/projects/csce2014_project6[01;32mjlr095@turing[00m:[01;34m~/csce2014/projects/csce2014_project6[00m$ g++ -std=c++11 -Wall *.cpp -o hw6.exe[K]0;jlr095@turing: ~/csce2014/projects/csce2014_project6[01;32mjlr095@turing[00m:[01;34m~/csce2014/projects/csce2014_project6[00m$ g++ -std=c++11 -Wall *.cpp -o hw6.exe
+]0;jlr095@turing: ~/csce2014/projects/csce2014_project6[01;32mjlr095@turing[00m:[01;34m~/csce2014/projects/csce2014_project6[00m$ ./hw6.exe
+Attempting to populate tree from file: "streaming-year.txt"...
+Success! Tree contains 21547 entries.
+Please enter an option (1, 2, 3, or 4):
+	1. Search for film by title and print details
+	2. Delete film by title
+	3. Run tests to verify program functionality
+	4. Quit and print all film titles
+	>>1
+Enter film title to search: 
+	>>the fatal hour
+Searching for : "the fatal hour"
+Film found! Details:
+
+Title: the fatal hour
+Platform: Prime
+Release Date: 1940
+Rating: PG
+Category Key Words: Suspense
+Description: Detective Captain Bill Street's (Withers) best friend Dan O'Grady; a fellow police officer; is murdered; and Bill brings in Detective James Lee Wong (Karloff) to investigate; along with gal reporter Bobbie Logan (Reynolds). The trio begin to uncover a jewelry smuggling ring on the San Francisco waterfront; possibly headed by Beldon (Reynolds); the son of a local crooked businessman. In the climatic ending; Mr. Wong tempts death during a jewelry-store robbery.
+
+Please enter an option (1, 2, 3, or 4):
+	1. Search for film by title and print details
+	2. Delete film by title
+	3. Run tests to verify program functionality
+	4. Quit and print all film titles
+	>>1
+Enter film title to search: 
+	>>the fatal hours
+Searching for : "the fatal hours"
+Film not found!
+
+Please enter an option (1, 2, 3, or 4):
+	1. Search for film by title and print details
+	2. Delete film by title
+	3. Run tests to verify program functionality
+	4. Quit and print all film titles
+	>>1
+Enter film title to search: 
+	>>babel
+Searching for : "babel"
+Film found! Details:
+
+Title: babel
+Platform: Netflix
+Release Date: 2006
+Rating: R
+Category Key Words: Dramas; Independent Movies
+Description: When an American couple vacationing in Morocco falls victim to a random act of violence; a series of events unfolds across four countries.
+
+Please enter an option (1, 2, 3, or 4):
+	1. Search for film by title and print details
+	2. Delete film by title
+	3. Run tests to verify program functionality
+	4. Quit and print all film titles
+	>>2
+Enter film title to delete: 
+	>>babel
+Successfully deleted film titled: babel
+Remaining films in database: 21546
+
+Please enter an option (1, 2, 3, or 4):
+	1. Search for film by title and print details
+	2. Delete film by title
+	3. Run tests to verify program functionality
+	4. Quit and print all film titles
+	>>1
+Enter film title to search: 
+	>>babel
+Searching for : "babel"
+Film not found!
+
+Please enter an option (1, 2, 3, or 4):
+	1. Search for film by title and print details
+	2. Delete film by title
+	3. Run tests to verify program functionality
+	4. Quit and print all film titles
+	>>3
+Deleting random nodes until size = 50
+Printing tree...
+****************************************************************************
+"barbara stanwyck & sterling hayden in ""crime of passion"" - a film noir classic"
+"behind ""the cove"": the quiet japanese speak out"
+"cisco kid in - ""phoney sheriff"" & ""lynching story"""
+"cisco kid in - ""wedding blackmail"" & ""false marriage"""
+argon
+ari eldjã¡rn: pardon my icelandic
+ari shaffir: double negative
+aria: the scarlet ammo
+ariana grande: excuse me; i love you
+aries spears: comedy blueprint
+arifureta: from commonplace to world's strongest
+arisan 2
+arishadvarga
+arizona bushwackers
+arjun anu
+arjun patiala
+arjun reddy
+arjun: the warrior prince
+arlo the alligator boy
+armageddon
+armed girl's machiavellism
+arms of my enemy
+army mystery
+army of one
+army of the dead
+army wives
+arnez j: racially motivated
+around the world in 30 minutes
+around the world in 80 days
+around the world in 90 minutes
+around the world in one hour
+arpo the robot for all kids - alien invasion & more robot kids cartoons
+arpo the robot for all kids - arpo at the zoo & more robot kids cartoons
+arpo the robot for all kids - arpo is fired & more robot kids cartoons
+arpo the robot for all kids - baby racer & more funny kids cartoons
+arpo the robot for all kids - boy in bubble & more robot cartoons for kids
+arpo the robot for all kids - burglary alert & more robot cartoons
+arpo the robot for all kids - frozen age & more funny cartoons for kids
+arpo the robot for all kids - germ war & more funny kids cartoons
+arpo the robot for all kids - kung fu time & more cartoons for kids
+arpo the robot for all kids - nannybot vs arpo & more cartoons for kids
+arpo the robot for all kids - peekabooboo & more cartoons for kids
+arpo the robot for all kids - rise of the machines & more robot cartoons
+arpo the robot for all kids - save the baby & more robot kids cartoon
+arpo the robot for all kids - supermarket adventures & more funny kids cartoons
+arpo the robot for all kids - zombie attack & more kids cartoons
+arpo: the robot for all kids
+arq
+arrest bulldog drummond
+babes in the woods
+****************************************************************************
+
+Deleting random nodes until size = 5
+Printing tree...
+****************************************************************************
+arpo the robot for all kids - peekabooboo & more cartoons for kids
+arpo the robot for all kids - rise of the machines & more robot cartoons
+arpo the robot for all kids - save the baby & more robot kids cartoon
+arpo the robot for all kids - supermarket adventures & more funny kids cartoons
+arpo the robot for all kids - zombie attack & more kids cartoons
+****************************************************************************
+
+Deleting random nodes until size = 4
+Printing tree...
+****************************************************************************
+arpo the robot for all kids - rise of the machines & more robot cartoons
+arpo the robot for all kids - save the baby & more robot kids cartoon
+arpo the robot for all kids - supermarket adventures & more funny kids cartoons
+arpo the robot for all kids - zombie attack & more kids cartoons
+****************************************************************************
+
+Deleting random nodes until size = 3
+Printing tree...
+****************************************************************************
+arpo the robot for all kids - save the baby & more robot kids cartoon
+arpo the robot for all kids - supermarket adventures & more funny kids cartoons
+arpo the robot for all kids - zombie attack & more kids cartoons
+****************************************************************************
+
+Deleting random nodes until size = 2
+Printing tree...
+****************************************************************************
+arpo the robot for all kids - supermarket adventures & more funny kids cartoons
+arpo the robot for all kids - zombie attack & more kids cartoons
+****************************************************************************
+
+Deleting random nodes until size = 1
+Printing tree...
+****************************************************************************
+arpo the robot for all kids - zombie attack & more kids cartoons
+****************************************************************************
+
+Deleting last node
+Printing tree...
+****************************************************************************
+Empty tree, nothing to print!
+****************************************************************************
+
+Please enter an option (1, 2, 3, or 4):
+	1. Search for film by title and print details
+	2. Delete film by title
+	3. Run tests to verify program functionality
+	4. Quit and print all film titles
+	>>4
+Printing entire list of films by title...
+****************************************************************************
+Empty tree, nothing to print!
+****************************************************************************
+Why don't you make like a tree, and get outta here!
+]0;jlr095@turing: ~/csce2014/projects/csce2014_project6[01;32mjlr095@turing[00m:[01;34m~/csce2014/projects/csce2014_project6[00m$ ./hw6.exe
+Attempting to populate tree from file: "streaming-year.txt"...
+Success! Tree contains 21547 entries.
+Please enter an option (1, 2, 3, or 4):
+	1. Search for film by title and print details
+	2. Delete film by title
+	3. Run tests to verify program functionality
+	4. Quit and print all film titles
+	>>4
+Printing entire list of films by title...
+****************************************************************************
+"barbara stanwyck & sterling hayden in ""crime of passion"" - a film noir classic"
+"behind ""the cove"": the quiet japanese speak out"
+"cisco kid in - ""phoney sheriff"" & ""lynching story"""
+"cisco kid in - ""wedding blackmail"" & ""false marriage"""
+"d.w. griffith's ""abraham lincoln"" - the walter huston 1930 classic"
+"dick winters: ""hang tough"""
+"eartha kitt & sammy davis jr. in ""anna lucasta"" - all black cast classic!"
+"ed wood's ""the violent years"" - an exploitation schlock classic"
+"edgar allan poe's ""the oval portrait"""
+"escape from the ""liberty"" cinema"
+"gabriel ""fluffy"" iglesias: one show fits all"
+"gary cooper in ""return to paradise"" - the south pacific adventure classic!"
+"hugh o'brian in ""the brass legend"" - a western action classic"
+"joan collins and richard egan in ""esther and the king"" - a classical biblical epic!"
+"maggie simpson in ""playdate with destiny"""
+"maggie simpson in ""the force awakens from its nap"""
+"maggie simpson in ""the longest daycare"""
+"priorities chapter one ""money isn't everything"""
+"rifftrax: ""manos"" the hands of fate"
+"robert mitchum & julie london in ""the wonderful country"" - a technicolor western classic"
+"robert mitchum in ""thunder road"" - an action epic loaded with classic cars!"
+"rory calhoun in ""the big caper"" - a bank heist film noir classic!"
+"say ""i love you"""
+"sword art online alternative ""gun gale online"""
+"tammy pescatelli's ""way after school special"""
+"the 5th king- iran ""the blade"" barkley story"
+"the memphis belle: a story of a flying fortress"
+"waiting for ""superman"""
+'allo 'allo!
+a 2nd chance
+a 3 minute hug
+a 30-minute journey around the world
+a babysitter's guide to monster hunting
+a bad moms christmas
+a beautiful day in the neighborhood
+a beautiful life
+a beautiful planet
+a beginner's guide to endings
+a billion colour story
+a bite of shunde
+a box for rob
+a box of faith
+a boy called po
+a boy called sailboat
+a boy name flora a
+a boy named charlie brown
+**********************************************************************************************************
+**********************************[DELETED MULTIPLE ENTRIES FOR BREVITY]**********************************
+**********************************************************************************************************
+you cannot hide
+yuva
+yuvarathnaa (hindi)
+yuvarathnaa (kannada)
+yuvarathnaa (tamil)
+yuvarathnaa (telugu)
+z nation
+z-o-m-b-i-e-s
+z4
+z: the beginning of everything
+zabardast
+zac and mia
+zach galifianakis: live at the purple onion
+zack and miri make a porno
+zahara: the return
+zak storm
+zaki chan
+zambezi: force of life
+zameer
+zana
+zandalee
+zappa
+zapped
+zara si bhool - a small mistake
+zathura
+zebra girl
+zed plus
+zeke and luther
+zenda
+zenimation
+zenon: girl of the 21st century
+zenon: the zequel
+zenon: z3
+zero
+zero chill
+zero hour
+zero tolerance
+zerozerozero
+zeta
+zig & sharko
+zindagi gulzar hai
+zindagi in short
+zindagi kitni haseen hay
+zindagi na milegi dobara
+zinzana
+zion
+zipi & zape y la isla del capitan
+zis boom bah
+zo zo zombie: mini-series
+zoboomafoo
+zodiac
+zoe
+zoids wild
+zokkomon
+zombie dumb
+zombie for sale
+zombie king
+zombie massacre
+zombie strippers
+zombie warz: falls the shadow
+zombie: i eat your skin
+zombieland
+zombies: addison's moonstone mystery
+zomblies
+zomboat!
+zona rosa
+zoo
+zoo babies
+zoo-head
+zoom
+zoombies
+zoot suit
+zootopia
+zozo
+zoã©: panoramas
+zoã« coombs marr: bossy bottom
+zubaan
+zulu man in japan
+zumbo's just desserts
+zz top: that little ol' band from texas
+ãšltimo tren a rusia
+åubat
+ë§ˆë…€ì‚¬ëƒ¥
+ë°˜ë“œì‹œ ì¡ëš”ë‹¤
+ìµœê°•ì „ì‚¬ ë¯¸ë‹ˆíš¹ê³µëœ€ : ì˜ì›…ì˜ íƒ„ìƒ
+ø§ø´øªø¨ø§ùƒ
+ø§ù„ù ù…ø¨ø±ùˆùƒ
+ø¯ùø¹ø© ø§ù„ù‚ø§ù‡ø±ø©
+ùšùˆù… ø§ù„ø¯ùšù†
+****************************************************************************
+Why don't you make like a tree, and get outta here!
+]0;jlr095@turing: ~/csce2014/projects/csce2014_project6[01;32mjlr095@turing[00m:[01;34m~/csce2014/projects/csce2014_project6[00m$ exit
+exit
+
+Script done on 2022-07-15 16:21:12-0500

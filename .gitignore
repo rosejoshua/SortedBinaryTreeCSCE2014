@@ -1,0 +1,7 @@
+.dep.inc
+build/
+dist/
+nbproject/
+streaming-title.txt
+.dep.inc
+Makefile
